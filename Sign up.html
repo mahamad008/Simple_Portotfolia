@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        text-decoration: none;
+        list-style: none;
+
+        
+    }
+
+  .continer .main .logo{
+     color: blue;
+     font-weight: bold;
+  }
+  ul{
+    display: flex;
+    gap: 40px;
+  }
+
+nav ul {
+    
+}
+.designs button{ 
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    /* margin-left: 280px; */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.designs{
+    margin-left: 600px;
+}
+#element{
+    color: blue;
+}
+.hero{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.image{
+    margin-left: 960px;
+
+}
+</style>
+<body>
+    <div class="continer">
+        <div class="main">
+            <nav>
+                <!-- <div class="logo">
+                    Coder
+                </div> -->
+                <ul>
+                    <li>
+                        <a href="HOME.HTML">HOME</a>
+                    </li>
+                    <li>
+                        <a href="ABOUT.HTML">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="SKILLS.HTML">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="">EDICATION</a>
+                    </li>
+                    <li>
+                        <a href="">PROJECTS</a>
+                    </li>
+                  <div class="designs">
+                    <a href="Sign up.html"> <button>Sign up</button>
+                     </a>
+                     <a href="">    <button>log in</button>   </a>
+
+                  </div>
+                </ul>
+            </nav>
+        </div>
+    <div class="hero">
+        <h1>HI I,M  <span id="element"></span> </h1>
+    
+    </div>
+    <div class="image">
+        <img src="Screenshot 2023-03-16 080157.png" alt="">
+     </div>
+    </div>
+      <!-- Element to contain animated typing -->
+
+ 
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['MOHAMED ABDI HASSAN','WEB DEVELOPER',"MOBILE APP DEVELOPER","SOFTWARE ENGINEERING","GRAPHIC DESIGNER","VIDEO EDITOR"],
+      typeSpeed: 50,
+      loop :true
+    });
+  </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+
+
+</head>
+<style>
+    *{
+        text-decoration: none;
+        list-style: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        
+    }
+
+  .continer .main .logo{
+     color: blue;
+     font-weight: bold;
+  }
+  ul{
+    display: flex;
+    gap: 40px;
+  }
+
+/* nav ul {
+    margin-left: 10rem; */
+
+
+.designs{
+    margin-left: 500px;
+}
+#element{
+    color: rgb(255, 123, 0);
+}
+.hero{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.image{
+    margin-left: 960px;
+
+}
+.me{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.swiper {
+  width: 80%;
+  height: fit-content;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 500px;
+}
+.swiper-slide img{
+    width: 100%;
+
+}
+
+
+</style>
+<body>
+    <div class="continer">
+        <div class="main">
+            <nav>
+                <!-- <div class="logo">
+                    Coder
+                </div> -->
+                <ul> 
+                    <li class="intro">
+                        <a href=""><img src="Admin.jpg"  width="70px" alt="" style="border-radius: 100%; margin-left: 0; "></a>
+                    </li>
+              
+                    <li>
+                        <a href="logo.html" style="color: gold;">Mohamed</a>
+                    </li>
+                    <li>
+                        <a href="HOME.HTML">HOME</a>
+                    </li>
+                    <li>
+                        <a href="ABOUT.HTML">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="SKILLS.HTML">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="EDICATION.HTML">EDICATION</a>
+                    </li>
+                    <li>
+                        <a href="PROJECTS.HTML">PROJECTS</a>
+                    </li>
+                  <div class="designs bg-red">
+        
+
+                  </div>
+                </ul>
+            </nav>
+        </div>
+      
+    <div class="hero"> <br>
+        
+        <h1 style="margin-left: 10rem;">HI I,M  <span id="element"></span> </h1>
+      
+    </div>
+    <a href="ABOUT.HTML"> <H6  style=" margin-left: 80px; font-size: 20px; color: grey;">Hi I,m moahamed Abdi Hassan I have Full Experience  <br> I Build  website front End Development and back End Development , <br> graphich design  video editing and more</H6></a>
+    <div class="image">
+        <img src="Screenshot 2023-03-16 080157.png"  alt="">
+     </div>
+      <div class="download">
+        <li>
+            <a href="" download="HOME" style="background-color: rgb(83, 83, 121); margin-left: 18rem; margin-top: 0; color: rgb(210, 210, 210); padding: 13px; border-radius: 30px;" >download cv</a>
+              <a href="contact.html" style="margin-left:5rem; background-color: rgb(59, 59, 59); color: white; padding:13px;  border-radius: 30px; ">contact Me</a>
+        </li>
+      </div>
+      <div class="myprojeckts">
+
+      </div>
+    </div>
+      <!-- Element to contain animated typing -->
+
+ 
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Mohamed Abdi Hassan','Web Developer ',"Mobile App Developer","Software Engineering","Graphic Designer","Video Editor"],
+      typeSpeed: 50,
+      loop :true
+    });
+    const swiper = new Swiper('.swiper', {
+
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+
+});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <!-- Slider main container -->
+
+
+    
+</body>
+</html>
